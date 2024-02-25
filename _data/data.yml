@@ -10,7 +10,7 @@ sidebar:
     # Profile information
     name: Andreas Hjartbro Bube
     tagline: Software Architect
-    avatar: ab.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    avatar: ab2.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
     # Sidebar links
     email: andreas@bube.dk
@@ -75,8 +75,7 @@ experiences:
 
           Within our engineering teams, I have driven initiatives such as Java upgrades and the development 
           of a new Rest API stack for our web-based front-end. Additionally, I manage our technical roadmap 
-          to ensure alignment with our company’s strategy by guiding team leads across all teams and 
-          applications.
+          to ensure alignment with our company’s strategy and guide and mentor engineers.
 
       - role: Software Engineer, Platform Engineering (part time)
         time: April 2018 - Nov 2021
@@ -93,7 +92,7 @@ experiences:
           In addition to my engineering role, I pursued a career as a professional athlete until the summer 
           of 2021.
 
-      - role: Software Engineer, Delivery team (part time)
+      - role: Software Engineer, Product team (part time)
         time: Oct 2016 - April 2018
         company: Exerp, Copenhagen
         details: |
