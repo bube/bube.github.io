@@ -1,0 +1,188 @@
+#
+# Be aware that even a small syntax error here can lead to failures in output.
+#
+
+sidebar:
+    position: right # position of the sidebar : left or right
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: False # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Andreas Hjartbro Bube
+    tagline: Software Architect
+    avatar: ab.jpg  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: andreas@bube.dk
+    phone: +45 61781387
+    location: Kongens Lyngby, Denmark
+    #timezone: CET
+    #citizenship:
+    #website: blog.webjeda.com #do not add http://
+    linkedin: andreas-bube
+    #xing: alandoe
+    #github: sharu725
+    #telegram: # add your nickname without '@' sign
+    #gitlab:
+    #bitbucket:
+    #twitter: '@webjeda'
+    #stack-overflow: # Number/Username, e.g. 123456/alandoe
+    #codewars:
+    #goodreads: # Number-Username, e.g. 123456-alandoe
+    #pdf: http://www.africau.edu/images/default/sample.pdf
+
+    languages:
+      title: Languages
+      info:
+        - idiom: Danish
+          level: Native
+        - idiom: English
+          level: Professional
+  
+    interests:
+      title: Interests
+      info:
+        - item: Running
+          link: https://worldathletics.org/athletes/denmark/andreas-bube-14167999
+        - item: Coffee
+        - item: Retro gaming
+
+career-profile:
+    title: Career Profile
+    summary: |
+      Experienced software engineer and architect with a strong commitment to continual learning and 
+      growth. Skilled in effective communication, I have experience engaging with stakeholders of varying 
+      technical backgrounds.
+
+      Proficient in Java development, I have so far specialized in modernizing and optimizing 
+      technical solutions. From revitalizing legacy systems to leading cloud migrations, I approach each 
+      project with a hunger for new knowledge. I'm committed to improving as an architect and believe 
+      that learning from you peers and hands-on-experience is the fastest way.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Software Architect 
+        time: Nov 2021 - Present
+        company: Exerp, Copenhagen
+        details: |
+          As a software architect at Exerp, I lead critical projects focused on modernizing our platform, such 
+          as containerizing our legacy core application and transitioning our desktop client and other front-ends 
+          to a standard single-sign-on solution with modern security features.
+
+          I actively collaborate with customers during pre-sales to ensure their needs align with our platform 
+          capabilities, communicating effectively regardless of their technical expertise.
+
+          Within our engineering teams, I have driven initiatives such as Java upgrades and the development 
+          of a new Rest API stack for our web-based front-end. Additionally, I manage our technical roadmap 
+          to ensure alignment with our company’s strategy by guiding team leads across all teams and 
+          applications.
+
+      - role: Software Engineer, Platform Engineering (part time)
+        time: April 2018 - Nov 2021
+        company: Exerp, Copenhagen
+        details: |
+          As a software engineer on the platform team, I took on the task of modernizing our mature platform 
+          to stay competitive in the ever-evolving ecosystems, which included migrating from on-premises 
+          infrastructure to AWS cloud services. I dove into a variety of technical challenges, from delving 
+          deep into writing Java class loaders to crafting Rest APIs and shaping overall system architecture.
+          With my strong learning mindset, I acquired the necessary skills along the journey, navigating the 
+          complexities of modernization. Leveraging my expertise in enterprise Java development to innovate 
+          and ensure our platform remained ahead of the curve.
+
+          In addition to my engineering role, I pursued a career as a professional athlete until the summer 
+          of 2021.
+
+      - role: Software Engineer, Delivery team (part time)
+        time: Oct 2016 - April 2018
+        company: Exerp, Copenhagen
+        details: |
+          As a software engineer on one of Exerp's delivery teams, my role involved implementing new product 
+          features and refining existing ones. I worked across the full stack, using technologies such as SWT 
+          for a desktop client, Struts for a web front-end, SOAP and Rest APIs, and Java EE for the backend 
+          with Oracle and Postgres databases, along with various message brokers.
+
+
+education:
+    title: Education
+    info:
+      - degree: BSc in Software Development (part time)
+        university: Copenhagen Business Academy
+        time: 2012 - 2016
+        details: |
+          I completed a top-up bachelor's degree in Software Development, focusing on building distributed and 
+          data-driven business applications. The program strengthened my skills in system design, architecture, 
+          and development methodologies.
+
+          I pursued this degree part-time while prioritizing my athletics career, which included 
+          competing in two Olympic Games and various other major competitions during this period.
+          
+      - degree: AP Degree in Computer Science
+        university: KEA - Copenhagen School of Design and Technology
+        time: 2010 - 2012
+        details: |
+          My AP degree in computer science provided a structured introduction to object-oriented programming 
+          with Java, databases, and fundamental engineering practices. Prior to this, I had already self-studied 
+          C++, Visual Basic, PHP, and more during my teenage years. This degree enhanced my understanding of key 
+          concepts such as design patterns, version control, and development methodologies.
+
+skills:
+    title: Skills &amp; Tools 
+    summary: |
+      These are the methods, languages and tools I'm currently working with. Some I master (Java), while others 
+      I'm merely conversational in (Node.js).
+
+    toolset:
+      - category:
+        title: Modeling and design
+        skills:
+          - name: C4 modeling
+          - name: UML
+          - name: SOLID
+          - name: Architecture Descriptions
+          - name: Designing Rest APIs
+          - name: OpenAPI spec
+          - name: Mermaid.js and Miro
+      - category:
+        title: Programming languages, frameworks and runtime environments
+        skills:
+          - name: Java
+          - name: Jakarta EE (formerly Java EE)
+          - name: Spring boot
+          - name: Node.js
+          - name: Quarkus
+      - category:
+        title: Middleware
+        skills:
+          - name: JBoss and WildFly
+          - name: ActiveMQ classic and Artemis message brokers
+          - name: Kafka and Debezium
+      - category:
+        title: Databases, storage, caching
+        skills:
+          - name: Postgres (previously also Oracle)
+          - name: Infinispan and Redis
+      - category:
+        title: Security
+        skills:
+          - name: ODIC and OAuth 2.0
+          - name: Auth0
+      - category:
+        title: Cloud
+        skills:
+          - name: AWS
+          - name: Kubernetes (AWS EKS)
+          - name: Docker and compose
+      - category:
+        title: Other
+        skills:
+          - name: Git and Github
+          - name: CI with Jenkins, maven and gradle
+          - name: Jira and Confluence
+          - name: Slack and Microsoft Teams
+          - name: Eclipse and IntelliJ
+
+
+
+#footer: >
+#    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
