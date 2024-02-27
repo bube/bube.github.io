@@ -151,7 +151,7 @@ skills:
       - category:
         title: Middleware
         skills:
-          - name: JBoss and WildFly
+          - name: WildFly (formerly JBoss)
           - name: ActiveMQ classic and Artemis message brokers
           - name: Kafka and Debezium
       - category:
