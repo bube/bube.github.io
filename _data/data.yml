@@ -128,8 +128,7 @@ education:
 skills:
     title: Skills &amp; Tools 
     summary: |
-      These are the methods, languages and tools I'm currently working with. Some I master (Java), while others 
-      I'm merely conversational in (Node.js).
+      These are the methods, languages and tools I'm currently working with.
 
     toolset:
       - category:
@@ -148,7 +147,6 @@ skills:
           - name: Java
           - name: Jakarta EE (formerly Java EE)
           - name: Spring boot
-          - name: Node.js
           - name: Quarkus
       - category:
         title: Middleware
